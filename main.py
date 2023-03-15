@@ -12,20 +12,6 @@ x = np.arange(0, amount, 1)
 
 n = len(lst)
 
-# bubble sort
-for i in range(n):
-    for j in range(0, n - i - 1):
-        plt.bar(x, lst)
-        plt.pause(0.01)  # not too small
-        plt.clf()  # clear figure
-        if lst[j] > lst[j + 1]:  # TODO change color of current bar i.e., lst[j]
-            lst[j], lst[j + 1] = lst[j + 1], lst[j]
-plt.show()
-
-
-def bubble_sort():
-    return
-
 
 def quick_sort():
     return
